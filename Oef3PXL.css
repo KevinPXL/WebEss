@@ -1,0 +1,24 @@
+body {
+    background-color: #F1F0F1;
+}
+h1 {
+    background-color: #000000; /*KLEUR ACHTERGROND*/
+    color: #F1F0F1; /*KLEUR LETTERTYPE*/
+    font-size: 48px; /*LETTERGROOTTE*/
+    font-family: "Arial Black", sans-serif; /*LETTERTYPE EN FAMILIE*/
+    text-transform: uppercase; /*TEKSTTRANSFORMATIE ALLES UPPERCASE*/
+    padding: 25px; /*WITRUIMTE BINNEN TOP EN BOTTOM ???????????*/
+}
+h2 {
+    color: #505050; /*KLEUR LETTERYPE*/
+    font-family: "Arial Black", sans-serif; /*LETTERTYPE EN FAMILIE*/
+    text-transform: uppercase; /*TEKSTTRANSFORMATIE ALLES UPPERCASE*/
+    border-bottom-style: solid;    /*ONDERRAND STIJL altijd definiëren anders onzichtbaar*/
+    border-bottom-width: 3px;     /*ONDERRAND BREEDTE*/
+    border-bottom-color: #58A518; /*ONDERRAND KLEUR*/
+
+    margin-top: 40px;  /*WITRUIMTE BUITEN TOP*/
+}
+p, li {
+    font-family: "Arial", sans-serif;
+}

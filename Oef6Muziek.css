@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    font-family: "Candara", serif;
+    font-size: 13pt;
+    color: white;
+}
+h1 {
+    font-size: 18pt;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: grey 5px 10px 3px;
+    margin: 50px 50px 50px 60px;
+}
+h2 {
+    font-size: 15pt;
+    margin: 50px 50px 20px 3px;
+    padding: 3px;
+    text-shadow: grey 5px 6px 3px;
+}
+ol {
+    color: green;
+    list-style-type: lower-roman;
+    margin-bottom: 75px;
+    :link {
+        color: blue;
+    }
+    :visited {
+        color: rebeccapurple;
+    }
+    :hover {
+        font-size: 14pt;
+        color: gold;
+    }
+
+}
+ul {
+    color: green;
+    list-style-type: circle;
+    margin-bottom: 75px;
+    :link {
+        color: blue;
+    }
+    :visited {
+        color: rebeccapurple;
+    }
+    :hover {
+        font-size: 14pt;
+        color: gold;
+    }
+    img {
+        display: inline-list-item;
+
+    }
+}
+footer {
+    font-size: 14px;
+    font-weight: lighter;
+    font-variant: small-caps;
+    text-align: center;
+}
